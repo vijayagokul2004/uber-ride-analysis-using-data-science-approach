@@ -1,33 +1,45 @@
-# Uber Data Analysis 🚖
+# 🚕 Uber Fare Price Prediction – Machine Learning Project
 
-## Overview
-Analyzing Uber ride data and predicting fare prices using 
-Linear Regression based on historical trip data.
+## 📌 Problem Statement
+The goal of this project is to predict Uber ride fare prices based on trip-related features such as distance, location, and travel conditions.
 
-## Dataset
-- **Features:** pickup location, dropoff location, 
-  passenger count, distance, fare amount
+---
 
-## Technologies Used
+## ⚙️ Approach / Methodology
+
+### 1. Data Understanding
+- Loaded Uber ride dataset
+- Identified key features affecting fare price
+
+### 2. Data Preprocessing
+- Removed null and inconsistent values
+- Performed feature selection
+- Converted data into model-ready format
+
+### 3. Model Building
+- Implemented Linear Regression model
+- Trained model on cleaned dataset
+
+### 4. Model Evaluation
+- Used Root Mean Squared Error (RMSE) to measure performance
+
+---
+
+## 📊 Results
+- RMSE: 1.28
+
+---
+
+## 💡 Business Impact
+- Helps users estimate fare before booking rides
+- Improves transparency in pricing
+- Helps ride-sharing companies optimize pricing strategy
+- Useful for demand forecasting
+
+---
+
+## 🛠️ Tools & Technologies
 - Python
-- Pandas & NumPy
+- Pandas
+- NumPy
 - Scikit-learn
-- Matplotlib & Seaborn
-
-## Models Used
-- Linear Regression
-
-## Results
-- Analyzed Uber ride trends and patterns
-- Predicted fare prices based on trip features
-- Visualized key insights from the data
-
-## How to Run
-1. Clone the repository
-2. Install requirements:
-   `pip install pandas numpy scikit-learn matplotlib seaborn`
-3. Open the `.ipynb` file in Jupyter Notebook
-4. Run all cells
-
-## Author
-**Vijayagokul** - Data Science Enthusiast
